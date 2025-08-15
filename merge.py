@@ -23,5 +23,5 @@ test_merged = pd.merge(test, store, on='Store', how='left')
 
 # print(train_merged.describe())
 # print(test_merged.describe())
-print(train_merged.info())
-# print(test_merged.info())
+# print(train_merged.info())
+print(test_merged.info())
